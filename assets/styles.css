@@ -1,0 +1,97 @@
+body {
+	background: url(https://cdn.pixabay.com/photo/2015/09/15/12/54/background-941011_960_720.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: teal;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+/*Header styles*/
+header {
+	background-color: white;
+	z-index: 99;
+
+}
+
+.page-header {
+	margin-top: 0;
+}
+
+.david {
+	background-color: teal;
+	padding: 31px 10px;
+	font-size: 52px;
+	color: white;
+}
+
+h3 {
+	color: teal !important;
+}
+
+/*Main styles*/
+ul {
+	list-style: none;
+}
+
+li {
+	padding: 10px;
+}
+
+label {
+	font-size: 20px;
+	padding: 20px;
+}
+
+.panel-title {
+	font-size: 28px;
+}
+
+.fa {
+	font-size: 80px;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.fa-github {
+	background-color: black;
+}
+
+.fa-linkedin {
+	background-color: blue;
+}
+
+.fa-stack-overflow {
+	background-color: orange;
+}
+
+.davidInputField {
+	padding: 10px 86px;
+}
+
+textarea {
+	padding: 60px 95px;
+}
+
+
+hr {
+	opacity: 0;
+}
+/*footer styles*/
+.navbar-fixed-bottom {
+	background-color: #3d3d3d;
+	color: white;
+	padding: 20px;
+}
+
+.davidCopyright {
+	opacity: .7;
+}
