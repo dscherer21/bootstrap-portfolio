@@ -33,7 +33,7 @@ header {
 }
 
 h3 {
-	color: teal !important;
+	color: teal;
 }
 
 /*Main styles*/
@@ -48,6 +48,14 @@ li {
 label {
 	font-size: 20px;
 	padding: 20px;
+}
+
+.bg-teal {
+	background-color: teal;
+	color: white;
+	position: relative;
+	margin-top: -40px;
+	padding-bottom: 4px;
 }
 
 .panel-title {
