@@ -1,9 +1,15 @@
 body {
-	background: url(https://cdn.pixabay.com/photo/2015/09/15/12/54/background-941011_960_720.jpg);
+	background: url(images/PortfolioBackgroundImage.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: teal;
 }
+
+a:hover
+ {
+   text-decoration:none;
+   cursor:pointer;
+  }
 
 
 /*Header styles*/
@@ -27,6 +33,7 @@ header {
 h3 {
 	color: teal;
 }
+
 
 /*Main styles*/
 ul {
