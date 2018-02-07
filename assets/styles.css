@@ -1,5 +1,5 @@
 body {
-	background: url(images/PortfolioBackgroundImage.jpg);
+	background: url(images/tealbrick.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: teal;
@@ -59,6 +59,7 @@ label {
 
 .panel-title {
 	font-size: 28px;
+	color: teal;
 }
 
 .fa {
