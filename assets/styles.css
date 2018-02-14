@@ -62,6 +62,12 @@ label {
 	color: teal;
 }
 
+.thumbnail {
+	box-shadow: 12px 12px 12px 1px rgba(0,0,0,.2);
+	margin: 10px;
+	padding: 1px;
+}
+
 .fa {
 	font-size: 80px;
 	color: white;
