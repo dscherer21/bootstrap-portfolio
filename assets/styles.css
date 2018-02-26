@@ -34,6 +34,7 @@ header {
 
 h3 {
 	color: teal;
+	text-shadow: 3px 3px rgba(255,255,255,.4);
 }
 
 
@@ -69,6 +70,12 @@ label {
 	box-shadow: 12px 12px 12px 1px rgba(0,0,0,.2);
 	margin: 10px;
 	padding: 1px;
+	transform-style: preserve-3d;
+  transition: all 1s ease;
+}
+
+.thumbnail:hover {
+	transform: rotateY( 180deg );
 }
 
 .fa {
