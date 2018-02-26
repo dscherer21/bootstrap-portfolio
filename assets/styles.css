@@ -28,6 +28,7 @@ header {
 	padding: 31px 10px;
 	font-size: 52px;
 	color: white;
+	text-shadow: 3px 3px rgba(255,255,255,.4);
 }
 
 h3 {
@@ -60,6 +61,7 @@ label {
 .panel-title {
 	font-size: 28px;
 	color: teal;
+	text-shadow: 3px 3px rgba(86,175,159,.4);
 }
 
 .thumbnail {
