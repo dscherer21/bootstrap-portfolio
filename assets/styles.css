@@ -110,3 +110,9 @@ hr {
 .davidCopyright {
 	opacity: .7;
 }
+
+@media (max-width: 1186px) {
+	.fa {
+		font-size: 40px;
+	}
+}
