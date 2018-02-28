@@ -85,16 +85,46 @@ label {
 	border-radius: 10px;
 }
 
+@keyframes slideInFromLeft {
+	0% {
+	  transform: translateX(-100%);
+	}
+	100% {
+	  transform: translateX(0);
+	}
+}
+
 .fa-github {
 	background-color: black;
+	animation: 4s ease 0s 1 slideInFromLeft;
+}
+
+@keyframes slideInFromTop {
+	0% {
+	  transform: translateY(-100%);
+	}
+	100% {
+	  transform: translateY(0);
+	}
 }
 
 .fa-linkedin {
 	background-color: blue;
+	animation: 4s ease 0s 1 slideInFromTop;
+}
+
+@keyframes slideInFromRight {
+	0% {
+	  transform: translateX(100%);
+	}
+	100% {
+	  transform: translateX(0);
+	}
 }
 
 .fa-stack-overflow {
 	background-color: orange;
+	animation: 4s ease 0s 1 slideInFromRight;
 }
 
 hr {
