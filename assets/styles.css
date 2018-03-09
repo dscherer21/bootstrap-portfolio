@@ -96,7 +96,7 @@ label {
 
 .fa-github {
 	background-color: black;
-	animation: 4s ease 0s 1 slideInFromLeft;
+	animation: 3s ease 0s 1 slideInFromLeft;
 }
 
 @keyframes slideInFromTop {
@@ -110,7 +110,7 @@ label {
 
 .fa-linkedin {
 	background-color: blue;
-	animation: 4s ease 0s 1 slideInFromTop;
+	animation: 3s ease 0s 1 slideInFromTop;
 }
 
 @keyframes slideInFromRight {
@@ -124,7 +124,7 @@ label {
 
 .fa-stack-overflow {
 	background-color: orange;
-	animation: 4s ease 0s 1 slideInFromRight;
+	animation: 3s ease 0s 1 slideInFromRight;
 }
 
 hr {
