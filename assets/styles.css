@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	background: url(images/tealbrick.jpg);
 	background-size: cover;
@@ -17,6 +21,10 @@ header {
 	background-color: white;
 	z-index: 99;
 
+}
+
+p {
+	font-size: 16px;
 }
 
 .page-header {
@@ -144,5 +152,26 @@ hr {
 @media (max-width: 1186px) {
 	.fa {
 		font-size: 40px;
+	}
+}
+
+@media (max-width: 1024px) {
+	h3 {
+ 		font-size: 26px;
+	}
+
+	.col-lg-4 {
+		display: inline-block;
+		padding: 10px 15px 0 15px;
+	}
+
+	.david {
+		font-size: 33px;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+		width: auto;
 	}
 }
