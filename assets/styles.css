@@ -68,6 +68,10 @@ label {
 	padding-bottom: 4px;
 }
 
+.panel {
+	animation: 2s ease 0s 1 slideInFromLeft;
+}
+
 .panel-title {
 	font-size: 28px;
 	color: teal;
@@ -79,7 +83,8 @@ label {
 	margin: 10px;
 	padding: 1px;
 	transform-style: preserve-3d;
-  transition: all 1s ease;
+	transition: all 1s ease;
+	animation: 2s ease 0s 1 slideInFromRight;
 }
 
 .thumbnail:hover {
@@ -104,7 +109,7 @@ label {
 
 .fa-github {
 	background-color: black;
-	animation: 3s ease 0s 1 slideInFromLeft;
+	animation: 2s ease 0s 1 slideInFromLeft;
 }
 
 @keyframes slideInFromTop {
@@ -118,7 +123,7 @@ label {
 
 .fa-linkedin {
 	background-color: blue;
-	animation: 3s ease 0s 1 slideInFromTop;
+	animation: 2s ease 0s 1 slideInFromTop;
 }
 
 @keyframes slideInFromRight {
@@ -132,7 +137,7 @@ label {
 
 .fa-stack-overflow {
 	background-color: orange;
-	animation: 3s ease 0s 1 slideInFromRight;
+	animation: 2s ease 0s 1 slideInFromRight;
 }
 
 hr {
