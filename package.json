@@ -1,0 +1,29 @@
+{
+  "name": "bootstrap-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio Page",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dscherer21/bootstrap-portfolio.git"
+  },
+  "keywords": [
+    "body-parser",
+    "bootstrap",
+    "jquery"
+  ],
+  "author": "dscherer21",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dscherer21/bootstrap-portfolio/issues"
+  },
+  "homepage": "https://github.com/dscherer21/bootstrap-portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  }
+}
